@@ -6,7 +6,7 @@ RUN apt-get upgrade -y
 RUN apt-get clean
 
 RUN apt-get install -y wget
-RUN apt-get install -y --no-install-recommends libbz2-dev zlib1g-dev
+RUN apt-get install -y --no-install-recommends libbz2-dev zlib1g-dev libpcre3-dev
 
 # Install PHP Extensions
 
