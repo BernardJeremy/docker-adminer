@@ -1,5 +1,5 @@
 FROM php:5.6-apache
-MAINTAINER Jeremy Benrard <jeremy@bernard.sh>
+MAINTAINER Jeremy Bernard <jeremy@bernard.sh>
 
 RUN apt-get update
 RUN apt-get upgrade -y
